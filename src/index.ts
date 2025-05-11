@@ -1,26 +1,34 @@
-import { fromHono } from "chanfana";
-import { Hono } from "hono";
-import { TaskCreate } from "./endpoints/taskCreate";
-import { TaskDelete } from "./endpoints/taskDelete";
-import { TaskFetch } from "./endpoints/taskFetch";
-import { TaskList } from "./endpoints/taskList";
+import playlists from "./data/playlists.json"
 
-// Start a Hono app
-const app = new Hono<{ Bindings: Env }>();
+export default {
+  async fetch(request: Request): Promise<Response> {
+    const url = new URL(request.url)
+    const path = url.pathname
 
-// Setup OpenAPI registry
-const openapi = fromHono(app, {
-	docs_url: "/",
-});
+    let responseData = {}
+    let status = 200
 
-// Register OpenAPI endpoints
-openapi.get("/api/tasks", TaskList);
-openapi.post("/api/tasks", TaskCreate);
-openapi.get("/api/tasks/:taskSlug", TaskFetch);
-openapi.delete("/api/tasks/:taskSlug", TaskDelete);
+    switch (path) {
+      case "/apps":
+        responseData = (await import("./data/apps.json")).default
+        break
+      case "/cursors":
+        responseData = (await import("./data/cursors.json")).default
+        break
+      case "/playlists":
+        responseData = playlists
+        break
+      default:
+        responseData = { error: "Not Found" }
+        status = 404
+    }
 
-// You may also register routes for non OpenAPI directly on Hono
-// app.get('/test', (c) => c.text('Hono!'))
-
-// Export the Hono app
-export default app;
+    return new Response(JSON.stringify(responseData), {
+      status,
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
+    })
+  },
+}

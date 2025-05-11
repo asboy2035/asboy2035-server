@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Web Apps",
+    "apps": [
+      {
+        "name": "tewFA",
+        "description": "A simple and modern 2FA app.",
+        "image": "https://tfa.asboy2035.com/assets/icon-1024.png",
+        "link": "https://tfa.asboy2035.com/",
+        "github": "https://github.com/tewFA/tewFA"
+      },
+      {
+        "name": "Astronomer",
+        "description": "An app with all the planets :)",
+        "image": "https://ashtronomy.pages.dev/Images/Astronomy-Icon.png",
+        "link": "https://ashtronomy.pages.dev/",
+        "github": "https://github.com/asboy2035/Astronomy/"
+      },
+      {
+        "name": "Clocs",
+        "description": "Keep track of everyone's time.",
+        "image": "https://clocs.pages.dev/Icons/Icon.png",
+        "link": "https://clocs.pages.dev/",
+        "github": "https://github.com/asboy2035/Clocs/"
+      },
+      {
+        "name": "Vault",
+        "description": "A private space for your ideas.",
+        "image": "https://byteforge-site-3-3.byteforge.pages.dev/Images/Vault-Icon.jpeg",
+        "link": "/vault/",
+        "github": "https://github.com/ByteForgeProd/ByteSite/tree/byteforge-site-3.3/vault/"
+      }
+    ]
+  },
+  {
+    "name": "Mac Apps",
+    "apps": [
+      {
+        "name": "Stand",
+        "description": "A Mac app for standing desks.",
+        "image": "/images/icons/Stand-Icon.png",
+        "link": "./stand"
+      },
+      {
+        "name": "BigTime",
+        "description": "A minimal macOS time tracker.",
+        "image": "/images/icons/BigTime-Icon.png",
+        "link": "#",
+        "disabled": true
+      }
+    ]
+  }
+]
