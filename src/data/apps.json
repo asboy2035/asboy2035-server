@@ -27,7 +27,7 @@
         "name": "Vault",
         "description": "A private space for your ideas.",
         "image": "https://byteforge-site-3-3.byteforge.pages.dev/Images/Vault-Icon.jpeg",
-        "link": "/vault/",
+        "link": "https://byteforge-site-3-3.byteforge.pages.dev/vault/",
         "github": "https://github.com/ByteForgeProd/ByteSite/tree/byteforge-site-3.3/vault/"
       }
     ]
@@ -39,7 +39,7 @@
         "name": "Stand",
         "description": "A Mac app for standing desks.",
         "image": "/images/icons/Stand-Icon.png",
-        "link": "./stand"
+        "link": "/apps/stand"
       },
       {
         "name": "BigTime",
