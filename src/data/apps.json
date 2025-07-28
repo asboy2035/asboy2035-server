@@ -10,11 +10,11 @@
         "github": "https://github.com/tewFA/tewFA"
       },
       {
-        "name": "Astronomer",
-        "description": "An app with all the planets :)",
-        "image": "https://ashtronomy.pages.dev/Images/Astronomy-Icon.png",
-        "link": "https://ashtronomy.pages.dev/",
-        "github": "https://github.com/asboy2035/Astronomy/"
+        "name": "AstroPlus",
+        "description": "A beautiful app with all the planets.",
+        "image": "https://astro.asboy2035.com/AstroPlus-AppIcon.png",
+        "link": "https://astro.asboy2035.com/",
+        "github": "https://github.com/asboy2035/AstroPlus/"
       },
       {
         "name": "Clocs",
