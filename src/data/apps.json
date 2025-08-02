@@ -3,11 +3,11 @@
     "name": "Web Apps",
     "apps": [
       {
-        "name": "tewFA",
-        "description": "A simple and modern 2FA app.",
-        "image": "https://tfa.asboy2035.com/assets/icon-1024.png",
-        "link": "https://tfa.asboy2035.com/",
-        "github": "https://github.com/tewFA/tewFA"
+        "name": "Authie",
+        "description": "2FA for all.",
+        "image": "https://authie.asboy2035.com/apple-touch-icon.png",
+        "link": "https://authie.asboy2035.com/",
+        "github": "https://github.com/asboy2035/authie"
       },
       {
         "name": "AstroPlus",
