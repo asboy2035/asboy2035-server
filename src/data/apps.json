@@ -17,11 +17,11 @@
         "github": "https://github.com/asboy2035/AstroPlus/"
       },
       {
-        "name": "Clocs",
-        "description": "Keep track of everyone's time.",
-        "image": "https://clocs.pages.dev/Icons/Icon.png",
-        "link": "https://clocs.pages.dev/",
-        "github": "https://github.com/asboy2035/Clocs/"
+        "name": "Tickity",
+        "description": "Clocks and timers app.",
+        "image": "https://tickity.asboy2035.com/apple-touch-icon.png",
+        "link": "https://tickity.asboy2035.com/",
+        "github": "https://github.com/asboy2035/Tickity/"
       },
       {
         "name": "Vault",
