@@ -24,11 +24,11 @@
         "github": "https://github.com/asboy2035/Tickity/"
       },
       {
-        "name": "Vault",
-        "description": "A private space for your ideas.",
-        "image": "https://byteforge-site-3-3.byteforge.pages.dev/Images/Vault-Icon.jpeg",
-        "link": "https://byteforge-site-3-3.byteforge.pages.dev/vault/",
-        "github": "https://github.com/ByteForgeProd/ByteSite/tree/byteforge-site-3.3/vault/"
+        "name": "DewLog",
+        "description": "Water tracker app.",
+        "image": "https://dewlog.asboy2035.com/apple-touch-icon.jpg",
+        "link": "https://dewlog.asboy2035.com/",
+        "github": "https://github.com/asboy2035/DewLog/"
       }
     ]
   },
