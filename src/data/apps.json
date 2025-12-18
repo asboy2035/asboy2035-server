@@ -42,11 +42,10 @@
         "link": "/apps/stand"
       },
       {
-        "name": "BigTime",
-        "description": "A minimal macOS time tracker.",
-        "image": "/images/icons/BigTime-Icon.png",
-        "link": "#",
-        "disabled": true
+        "name": "SerialPlotter",
+        "description": "A beautiful serial plotter for Mac.",
+        "image": "/images/icons/Serial-Icon.png",
+        "link": "https://l.a35.dev/serialp"
       }
     ]
   }
