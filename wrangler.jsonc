@@ -1,9 +1,9 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "asboy2035-server",
-	"main": "src/index.ts",
-	"compatibility_date": "2025-05-10",
-	"observability": {
-		"enabled": true
-	}
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "asboy2035-server",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-05-10",
+  "observability": {
+    "enabled": true
+  }
 }

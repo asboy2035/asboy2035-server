@@ -1,19 +1,21 @@
 import playlists from "./data/playlists.json"
+import apps from "./data/apps.json"
+import cursors from "./data/cursors.json"
 
 export default {
   async fetch(request: Request): Promise<Response> {
     const url = new URL(request.url)
-    const path = url.pathname
+    const path: string = url.pathname
 
     let responseData = {}
-    let status = 200
+    let status: number = 200
 
     switch (path) {
       case "/apps":
-        responseData = (await import("./data/apps.json")).default
+        responseData = apps
         break
       case "/cursors":
-        responseData = (await import("./data/cursors.json")).default
+        responseData = cursors
         break
       case "/playlists":
         responseData = playlists
