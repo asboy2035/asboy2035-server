@@ -1,4 +1,4 @@
-# asboy2035 Server
+# a35hie's Metadata Server
 
 A simple backend that includes JSON data files for my website.
 
